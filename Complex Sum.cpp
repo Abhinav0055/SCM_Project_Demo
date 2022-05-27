@@ -10,6 +10,10 @@ class complex{
     complex(int r, int i){
         real=r,imag=i;
     }
+    friend complex sum(complex,complex);
+    void disp(){
+        cout<<real<<"+"<<imag<<"i"<<endl;
+    }
     
 };
 
