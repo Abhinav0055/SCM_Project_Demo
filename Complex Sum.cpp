@@ -24,12 +24,12 @@ class complex{
     }
 };
 
- //complex sum(complex C1,complex C2){
-   //     complex C3;
-     //   C3.real= C1.real + C2.real;
-      //  C3.imag= C1.imag + C2.imag;
-      //  return C3;
-   // }
+    complex sum(complex C1,complex C2){
+     complex C3;
+       C3.real= C1.real + C2.real;
+     C3.imag= C1.imag + C2.imag;
+     return C3;
+    }
 
 int main()
 {
