@@ -1,11 +1,3 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <iostream>
 using namespace std;
 
@@ -18,10 +10,7 @@ class complex{
     complex(int r, int i){
         real=r,imag=i;
     }
-    friend complex sum(complex,complex);
-    void disp(){
-        cout<<real<<"+"<<imag<<"i"<<endl;
-    }
+    
 };
 
  complex sum(complex C1,complex C2){
