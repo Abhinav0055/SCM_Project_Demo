@@ -21,12 +21,7 @@ using namespace std;
 
 int main()
 {
-    complex C1(5,7);
-    complex C2(3,1);
-    complex C3;
-    C1.disp();
-    C2.disp();
-    C3.disp();
+
     
     return 0;
 }
